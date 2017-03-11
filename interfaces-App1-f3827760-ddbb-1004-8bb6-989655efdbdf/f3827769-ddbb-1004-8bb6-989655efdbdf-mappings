@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<modelinterface type="DomeModelInterface" id="f3827769-ddbb-1004-8bb6-989655efdbdf" name="Default Interface">
+    <interfaceinfo>
+        <version>0.0.1</version>
+        <defaultinterface/>
+    </interfaceinfo>
+    <mappingsandintermediates>
+        <mappings>
+            <interfacemappings>
+                <mappedParameter name="timestamp_begin" idRef="f3827784-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="timestamp_begin" idRef="f3827782-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="comment" idRef="f38277ab-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="comment" idRef="f38277a9-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="machine_status" idRef="f3827796-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="machine_status" idRef="f3827794-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="timestamp_current" idRef="f3827790-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="timestamp_current" idRef="f382778e-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="part_count" idRef="f382779c-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="part_count" idRef="f382779a-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="machine_name" idRef="f382777b-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="machine_name" idRef="f3827779-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="machine_utilization" idRef="f38277ae-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="machine_utilization" idRef="f38277ac-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="timestamp_end" idRef="f3827787-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="timestamp_end" idRef="f3827785-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="time_period" idRef="f382777e-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="time_period" idRef="f382777c-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="OEE" idRef="f382779f-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="OEE" idRef="f382779d-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="timestamp_status_update" idRef="f3827799-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="timestamp_status_update" idRef="f3827797-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="connection_status" idRef="f38277a8-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="connection_status" idRef="f38277a6-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="timestamp_end" idRef="f3827786-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="timestamp_end" idRef="f3827785-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="machine_utilization" idRef="f38277ad-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="machine_utilization" idRef="f38277ac-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="timestamp_current" idRef="f382778f-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="timestamp_current" idRef="f382778e-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="time_period" idRef="f382777d-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="time_period" idRef="f382777c-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="connection_status" idRef="f38277a7-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="connection_status" idRef="f38277a6-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="timestamp_status_update" idRef="f3827798-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="timestamp_status_update" idRef="f3827797-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="timestamp_begin" idRef="f3827783-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="timestamp_begin" idRef="f3827782-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="part_count" idRef="f382779b-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="part_count" idRef="f382779a-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="OEE" idRef="f382779e-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="OEE" idRef="f382779d-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="comment" idRef="f38277aa-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="comment" idRef="f38277a9-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="machine_status" idRef="f3827795-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="machine_status" idRef="f3827794-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+                <mappedParameter name="machine_name" idRef="f382777a-ddbb-1004-8bb6-989655efdbdf">
+                    <parameter name="machine_name" idRef="f3827779-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf"/>
+                </mappedParameter>
+            </interfacemappings>
+        </mappings>
+        <intermediateobjects/>
+    </mappingsandintermediates>
+    <lookupdata>
+        <objectmap>
+            <parameter name="comment" idRef="f38277a9-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="comment" idRef="f38277aa-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="timestamp_current" idRef="f382778e-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="timestamp_current" idRef="f382778f-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="timestamp_end" idRef="f3827785-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="timestamp_end" idRef="f3827786-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="machine_name" idRef="f3827779-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="machine_name" idRef="f382777a-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <context name="Inputs" idRef="f3827772-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <context name="Inputs" idRef="f3827773-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="timestamp_status_update" idRef="f3827797-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="timestamp_status_update" idRef="f3827798-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="time_period" idRef="f382777c-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="time_period" idRef="f382777d-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="connection_status" idRef="f38277a6-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="connection_status" idRef="f38277a7-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="machine_status" idRef="f3827794-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="machine_status" idRef="f3827795-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="part_count" idRef="f382779a-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="part_count" idRef="f382779b-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="OEE" idRef="f382779d-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="OEE" idRef="f382779e-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="timestamp_begin" idRef="f3827782-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="timestamp_begin" idRef="f3827783-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <context name="Outputs" idRef="f3827774-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <context name="Outputs" idRef="f3827775-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="machine_utilization" idRef="f38277ac-ddbb-1004-8bb6-989655efdbdf" idModelRef="f3827760-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="machine_utilization" idRef="f38277ad-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+        </objectmap>
+        <viewobjectmap>
+            <parameter name="timestamp_end" idRef="f3827786-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="timestamp_end" idRef="f3827787-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="machine_utilization" idRef="f38277ad-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="machine_utilization" idRef="f38277ae-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="timestamp_current" idRef="f382778f-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="timestamp_current" idRef="f3827790-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="time_period" idRef="f382777d-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="time_period" idRef="f382777e-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="connection_status" idRef="f38277a7-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="connection_status" idRef="f38277a8-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="timestamp_status_update" idRef="f3827798-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="timestamp_status_update" idRef="f3827799-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="timestamp_begin" idRef="f3827783-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="timestamp_begin" idRef="f3827784-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="part_count" idRef="f382779b-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="part_count" idRef="f382779c-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="OEE" idRef="f382779e-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="OEE" idRef="f382779f-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="comment" idRef="f38277aa-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="comment" idRef="f38277ab-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="machine_status" idRef="f3827795-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="machine_status" idRef="f3827796-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+            <parameter name="machine_name" idRef="f382777a-ddbb-1004-8bb6-989655efdbdf" description="key"/>
+            <parameter name="machine_name" idRef="f382777b-ddbb-1004-8bb6-989655efdbdf" description="value"/>
+        </viewobjectmap>
+        <relationobjectmap/>
+    </lookupdata>
+</modelinterface>
