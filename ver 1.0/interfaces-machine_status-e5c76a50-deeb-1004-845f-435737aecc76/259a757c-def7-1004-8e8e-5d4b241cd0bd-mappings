@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<modelinterface type="DomeModelInterface" id="259a757c-def7-1004-8e8e-5d4b241cd0bd" name="Default Interface">
+    <interfaceinfo>
+        <version>0.0.1</version>
+        <defaultinterface/>
+    </interfaceinfo>
+    <mappingsandintermediates>
+        <mappings/>
+        <intermediateobjects/>
+    </mappingsandintermediates>
+    <lookupdata>
+        <objectmap/>
+        <viewobjectmap/>
+        <relationobjectmap/>
+    </lookupdata>
+</modelinterface>
