@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<modelinterface type="DomeModelInterface" id="f38277ee-ddbb-1004-8bb6-989655efdbdf" name="Dome Model Interface">
+    <interfaceinfo>
+        <version>0.0.1</version>
+    </interfaceinfo>
+    <parameters>
+        <parameter id="fc2f8d13-dde1-1004-809b-8c012a9d8c33" name="machine_name">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fc2f8d14-dde1-1004-809b-8c012a9d8c33" name="time_period">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fc2f8d15-dde1-1004-809b-8c012a9d8c33" name="timestamp_begin">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fc2f8d16-dde1-1004-809b-8c012a9d8c33" name="timestamp_end">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fc2f8d17-dde1-1004-809b-8c012a9d8c33" name="connection_status">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fc2f8d18-dde1-1004-809b-8c012a9d8c33" name="timestamp_current">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fc2f8d19-dde1-1004-809b-8c012a9d8c33" name="machine_status">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fc2f8d1a-dde1-1004-809b-8c012a9d8c33" name="timestamp_status_update">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fc2f8d1b-dde1-1004-809b-8c012a9d8c33" name="part_count">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fc2f8d1c-dde1-1004-809b-8c012a9d8c33" name="machine_utilization">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fc2f8d1d-dde1-1004-809b-8c012a9d8c33" name="OEE">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+        <parameter id="fc2f8d1e-dde1-1004-809b-8c012a9d8c33" name="comment">
+            <currentType value="String"/>
+            <data>
+                <dataobject type="String"></dataobject>
+            </data>
+        </parameter>
+    </parameters>
+    <visualizations/>
+    <relations/>
+    <contexts>
+        <context id="IFACE_MODEL_CXT" name="Model View"/>
+        <context id="fc2f8d0b-dde1-1004-809b-8c012a9d8c33" name="Inputs">
+            <modelobjects>
+                <parameter name="machine_name" idRef="fc2f8d13-dde1-1004-809b-8c012a9d8c33"/>
+                <parameter name="time_period" idRef="fc2f8d14-dde1-1004-809b-8c012a9d8c33"/>
+                <parameter name="timestamp_begin" idRef="fc2f8d15-dde1-1004-809b-8c012a9d8c33"/>
+                <parameter name="timestamp_end" idRef="fc2f8d16-dde1-1004-809b-8c012a9d8c33"/>
+            </modelobjects>
+        </context>
+        <context id="fc2f8d0c-dde1-1004-809b-8c012a9d8c33" name="Outputs">
+            <modelobjects>
+                <parameter name="connection_status" idRef="fc2f8d17-dde1-1004-809b-8c012a9d8c33"/>
+                <parameter name="timestamp_current" idRef="fc2f8d18-dde1-1004-809b-8c012a9d8c33"/>
+                <parameter name="machine_status" idRef="fc2f8d19-dde1-1004-809b-8c012a9d8c33"/>
+                <parameter name="timestamp_status_update" idRef="fc2f8d1a-dde1-1004-809b-8c012a9d8c33"/>
+                <parameter name="part_count" idRef="fc2f8d1b-dde1-1004-809b-8c012a9d8c33"/>
+                <parameter name="machine_utilization" idRef="fc2f8d1c-dde1-1004-809b-8c012a9d8c33"/>
+                <parameter name="OEE" idRef="fc2f8d1d-dde1-1004-809b-8c012a9d8c33"/>
+                <parameter name="comment" idRef="fc2f8d1e-dde1-1004-809b-8c012a9d8c33"/>
+            </modelobjects>
+        </context>
+    </contexts>
+    <views>
+        <view name="Build View">
+            <context id="IFACE_BUILD_CXT" name="Build View">
+                <modelobjects>
+                    <context name="Inputs" idRef="fc2f8d0b-dde1-1004-809b-8c012a9d8c33"/>
+                    <context name="Outputs" idRef="fc2f8d0c-dde1-1004-809b-8c012a9d8c33"/>
+                </modelobjects>
+            </context>
+        </view>
+        <view name="Interface Causality View">
+            <filter id="INPUTS_FILTER" name="Inputs">
+                <parameters>
+                    <parameter name="machine_name" idRef="fc2f8d13-dde1-1004-809b-8c012a9d8c33"/>
+                    <parameter name="timestamp_begin" idRef="fc2f8d15-dde1-1004-809b-8c012a9d8c33"/>
+                    <parameter name="time_period" idRef="fc2f8d14-dde1-1004-809b-8c012a9d8c33"/>
+                    <parameter name="timestamp_end" idRef="fc2f8d16-dde1-1004-809b-8c012a9d8c33"/>
+                </parameters>
+            </filter>
+            <filter id="OUTPUTS_FILTER" name="Outputs">
+                <parameters>
+                    <parameter name="part_count" idRef="fc2f8d1b-dde1-1004-809b-8c012a9d8c33" causality="Result"/>
+                    <parameter name="connection_status" idRef="fc2f8d17-dde1-1004-809b-8c012a9d8c33" causality="Result"/>
+                    <parameter name="comment" idRef="fc2f8d1e-dde1-1004-809b-8c012a9d8c33" causality="Result"/>
+                    <parameter name="timestamp_status_update" idRef="fc2f8d1a-dde1-1004-809b-8c012a9d8c33" causality="Result"/>
+                    <parameter name="OEE" idRef="fc2f8d1d-dde1-1004-809b-8c012a9d8c33" causality="Result"/>
+                    <parameter name="machine_utilization" idRef="fc2f8d1c-dde1-1004-809b-8c012a9d8c33" causality="Result"/>
+                    <parameter name="timestamp_current" idRef="fc2f8d18-dde1-1004-809b-8c012a9d8c33" causality="Result"/>
+                    <parameter name="machine_status" idRef="fc2f8d19-dde1-1004-809b-8c012a9d8c33" causality="Result"/>
+                </parameters>
+            </filter>
+            <filter id="INDETERMINATES_FILTER" name="Indeterminates"/>
+        </view>
+    </views>
+    <directedGraph id="f38277ee-ddbb-1004-8bb6-989655efdbdf">
+        <nodes>
+            <node idRef="fc2f8d13-dde1-1004-809b-8c012a9d8c33"/>
+            <node idRef="fc2f8d14-dde1-1004-809b-8c012a9d8c33"/>
+            <node idRef="fc2f8d15-dde1-1004-809b-8c012a9d8c33"/>
+            <node idRef="fc2f8d16-dde1-1004-809b-8c012a9d8c33"/>
+            <node idRef="fc2f8d17-dde1-1004-809b-8c012a9d8c33"/>
+            <node idRef="fc2f8d18-dde1-1004-809b-8c012a9d8c33"/>
+            <node idRef="fc2f8d19-dde1-1004-809b-8c012a9d8c33"/>
+            <node idRef="fc2f8d1a-dde1-1004-809b-8c012a9d8c33"/>
+            <node idRef="fc2f8d1b-dde1-1004-809b-8c012a9d8c33"/>
+            <node idRef="fc2f8d1c-dde1-1004-809b-8c012a9d8c33"/>
+            <node idRef="fc2f8d1d-dde1-1004-809b-8c012a9d8c33"/>
+            <node idRef="fc2f8d1e-dde1-1004-809b-8c012a9d8c33"/>
+        </nodes>
+        <arcs>
+            <from idRef="fc2f8d13-dde1-1004-809b-8c012a9d8c33">
+                <to idRef="fc2f8d17-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d18-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d19-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d1a-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d1b-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d1c-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d1d-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d1e-dde1-1004-809b-8c012a9d8c33"/>
+            </from>
+            <from idRef="fc2f8d14-dde1-1004-809b-8c012a9d8c33">
+                <to idRef="fc2f8d17-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d18-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d19-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d1a-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d1b-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d1c-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d1d-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d1e-dde1-1004-809b-8c012a9d8c33"/>
+            </from>
+            <from idRef="fc2f8d15-dde1-1004-809b-8c012a9d8c33">
+                <to idRef="fc2f8d17-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d18-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d19-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d1a-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d1b-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d1c-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d1d-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d1e-dde1-1004-809b-8c012a9d8c33"/>
+            </from>
+            <from idRef="fc2f8d16-dde1-1004-809b-8c012a9d8c33">
+                <to idRef="fc2f8d17-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d18-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d19-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d1a-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d1b-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d1c-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d1d-dde1-1004-809b-8c012a9d8c33"/>
+                <to idRef="fc2f8d1e-dde1-1004-809b-8c012a9d8c33"/>
+            </from>
+        </arcs>
+    </directedGraph>
+    <interfaceToRelParamMap>
+        <iToRpMap relParamId="fc2f8d13-dde1-1004-809b-8c012a9d8c33" ifaceId="f3827779-ddbb-1004-8bb6-989655efdbdf"/>
+        <iToRpMap relParamId="fc2f8d14-dde1-1004-809b-8c012a9d8c33" ifaceId="f382777c-ddbb-1004-8bb6-989655efdbdf"/>
+        <iToRpMap relParamId="fc2f8d15-dde1-1004-809b-8c012a9d8c33" ifaceId="f3827782-ddbb-1004-8bb6-989655efdbdf"/>
+        <iToRpMap relParamId="fc2f8d16-dde1-1004-809b-8c012a9d8c33" ifaceId="f3827785-ddbb-1004-8bb6-989655efdbdf"/>
+        <iToRpMap relParamId="fc2f8d17-dde1-1004-809b-8c012a9d8c33" ifaceId="f38277a6-ddbb-1004-8bb6-989655efdbdf"/>
+        <iToRpMap relParamId="fc2f8d18-dde1-1004-809b-8c012a9d8c33" ifaceId="f382778e-ddbb-1004-8bb6-989655efdbdf"/>
+        <iToRpMap relParamId="fc2f8d19-dde1-1004-809b-8c012a9d8c33" ifaceId="f3827794-ddbb-1004-8bb6-989655efdbdf"/>
+        <iToRpMap relParamId="fc2f8d1a-dde1-1004-809b-8c012a9d8c33" ifaceId="f3827797-ddbb-1004-8bb6-989655efdbdf"/>
+        <iToRpMap relParamId="fc2f8d1b-dde1-1004-809b-8c012a9d8c33" ifaceId="f382779a-ddbb-1004-8bb6-989655efdbdf"/>
+        <iToRpMap relParamId="fc2f8d1c-dde1-1004-809b-8c012a9d8c33" ifaceId="f38277ac-ddbb-1004-8bb6-989655efdbdf"/>
+        <iToRpMap relParamId="fc2f8d1d-dde1-1004-809b-8c012a9d8c33" ifaceId="f382779d-ddbb-1004-8bb6-989655efdbdf"/>
+        <iToRpMap relParamId="fc2f8d1e-dde1-1004-809b-8c012a9d8c33" ifaceId="f38277a9-ddbb-1004-8bb6-989655efdbdf"/>
+    </interfaceToRelParamMap>
+</modelinterface>
