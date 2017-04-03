@@ -1,8 +1,0 @@
-connection_status = No Connection Made
-timestamp_current = 2016-10-29T03:10:11.999000
-machine_status = NA
-timestamp_status_update = NA
-part_count = 0.00
-machine_utilization = 0.00
-OEE = 0.00
-comment = ERROR: Is the server running on host '152.1.58.206' and accepting TCP/IP connections on port 5432?
